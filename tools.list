@@ -17,6 +17,6 @@ kali=("${informationgathering[@]}" "${vulnerability[@]}" "${web[@]}" "${database
 
 
 # Fitsec preferences
-fitsec=()
+fitsec=(python3-scapy)
 
 all=("${fitsec[@]}" "${kali[@]}")
